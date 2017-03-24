@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "axios": "^0.15.3",
@@ -20,5 +22,8 @@
     "validator": "^7.0.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0"
+  }
 }
