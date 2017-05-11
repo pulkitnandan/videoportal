@@ -8,7 +8,7 @@ import Head from 'next/head'
 class Counter extends React.Component {
   static async getInitialProps (ctx) {
       console.log(ctx)
-    return { 
+    return {
            }
   }
 
@@ -21,6 +21,7 @@ class Counter extends React.Component {
   render () {
     return (
       <div>
+        adddds
       </div>
     )
   }
